@@ -1,4 +1,4 @@
-body {
+.body {
  font-family: 'Roboto', sans-serif;
  margin: 0;
 }
@@ -8,8 +8,12 @@ body {
  width: 80%;
 }
 
-.menu .header__logo {
+.header__logo {
  display: inline-block;
+}
+
+.menu {
+ display: flex;
  align-items: center;
 }
 
@@ -29,6 +33,6 @@ body {
  padding: 0 13px;
 }
 
-h1 {
+.h1 {
   font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
 }
