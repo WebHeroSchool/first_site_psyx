@@ -10,7 +10,6 @@ body {
 
 .menu .header__logo {
  display: inline-block;
- padding: 40px 0 40px 0;
 }
 
 .header__logo {
@@ -20,7 +19,7 @@ body {
 }
 
 .header {
- padding: 40px 0;
+ padding: 40px 0 40px 0;
  display: flex;
  justify-content: space-between;
 }
