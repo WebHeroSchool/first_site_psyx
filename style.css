@@ -17,7 +17,7 @@ body {
  padding: 40px 0;
  width: 190px;
  height: 35px;
- background: url('img/logo.svg');
+ background: red;
 }
 
 .header {
