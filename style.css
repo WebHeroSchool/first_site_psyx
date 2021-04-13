@@ -34,5 +34,8 @@
 }
 
 .main-content__title {
-  font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+ font-family: pt_serif, arial, helvetica, sans-serif;
+ font-weight: bold;
+ font-size: 50px;
+ line-height: 66px;
 }
