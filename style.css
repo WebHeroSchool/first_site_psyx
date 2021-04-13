@@ -27,3 +27,7 @@ body {
 .menu__item {
  padding: 0 13px;
 }
+
+h1 {
+  font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+}
