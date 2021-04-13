@@ -10,6 +10,7 @@ body {
 
 .menu .header__logo {
  display: inline-block;
+ align-items: center;
 }
 
 .header__logo {
@@ -26,7 +27,6 @@ body {
 
 .menu__item {
  padding: 0 13px;
- align-items: center;
 }
 
 h1 {
