@@ -30,7 +30,11 @@
 }
 
 .menu__item {
- padding: 0 13px;
+ position: relative;
+ margin-right: 26px;
+ font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+ color: #000;
+ text-decoration: none;
 }
 
 .main-content__title {
@@ -38,4 +42,16 @@
  font-weight: bold;
  font-size: 50px;
  line-height: 66px;
+}
+
+.menu__item_active::after {
+ display: block;
+ content: '';
+ width: 68px;
+ height: 3px;
+ background: #0056EC;
+}
+
+.menu__item:last-child {
+ margin-right: 0;
 }
