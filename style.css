@@ -1,6 +1,11 @@
+.body {
+ margin: 0;
+ font-family: 'Roboto', sans-serif;
+}
+
 .wrapper {
-  font-family: 'Roboto', sans-serif;
-  margin: auto;
+  margin-left: 196px;
+  margin-right: 201px;
   width: 80%;
 }
 
