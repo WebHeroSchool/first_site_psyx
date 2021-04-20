@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'roboto';
+    font-family: 'robotoregular';
     src: url('fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -104,7 +104,7 @@
 }
 
 @font-face {
-    font-family: 'pt_serif';
+    font-family: 'pt_serifregular';
     src: url('fonts/ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
