@@ -111,6 +111,16 @@ body {
   background: no-repeat url('img/points.svg');
 }
 
+@keyframes color {
+  to {
+    background: linear-gradient(to top, #52d2bc 78%, #fff 22%);
+  }
+}
+
+.main__title-text_highlight:hover {
+  animation: color 0.3s infinite linear;
+}
+
 .menu__box {
  display: none;
 }
