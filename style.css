@@ -103,3 +103,76 @@ body {
 .main__title-text_highlight {
  background: #ECF3FF;
 }
+
+@media (max-width: 1367px) {
+.wrapper {
+margin:0 222px 0 219px;
+}
+
+.menu {
+ padding-top: 2px;
+}
+
+.header {
+ margin-bottom: 100px;
+}
+
+.main {
+ padding: 74px 63% 180px 0;
+ background: top right no-repeat url(img/mainimg1366.svg);
+}
+
+.menu__item {
+ margin-right: 26px;
+ font: 14px/16px robotomedium, arial, helvetica, sans-serif;
+}
+
+.main__title {
+margin-bottom: 40px;
+font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main__subtitle {
+margin: 0 0 41px 0;
+font: 18px/21px Robotoregular, arial, helvetica, sans-serif;
+}
+
+.main__button {
+font: 14px/16px Robotoregular, arial, helvetica, sans-serif;
+}
+}
+
+@media (max-width: 768px) {
+ .menu {
+ display: none;
+ }
+
+ .wrapper {
+   width: 87%;
+ }
+
+ .header {
+margin-bottom: 28px;
+}
+
+.main {
+text-align: center;
+padding: 74% 0 0;
+background-size: 74%;
+background-position: top center;
+}
+
+.main__title {
+margin-bottom: 44px;
+font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main__subtitle {
+margin: 0 0 25px 0;
+font: 16px/19px Robotoregular, arial, helvetica, sans-serif;
+}
+
+.main__button {
+font: 14px/16px Robotoregular, arial, helvetica, sans-serif;
+}
+}
