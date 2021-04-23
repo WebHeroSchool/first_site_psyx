@@ -81,7 +81,7 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 140px 41px 0;
+  margin: 0 0 41px 0;
   font: 1.14vw/1.25vw Robotoregular, arial, helvetica, sans-serif;
 }
 
@@ -256,9 +256,8 @@ body {
 
 .main__subtitle {
   text-align: center;
-  margin: 0 25px 25px 25px;
+  margin: 0 0 25px 0;
   font: 16px/19px Robotomedium, arial, helvetica, sans-serif;
-  padding: 0 11px 0 15px;
   }
 
 .main__button {
