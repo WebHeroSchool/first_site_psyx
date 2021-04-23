@@ -196,7 +196,8 @@ body {
 
   .menu__item {
     margin-right: 26px;
-    font: 14px/16px robotomedium, arial, helvetica, sans-serif; }
+    font: 14px/16px robotomedium, arial, helvetica, sans-serif;
+  }
 
   .menu__item:last-child {
     margin-right: 0;
