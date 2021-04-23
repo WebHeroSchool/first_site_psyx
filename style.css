@@ -129,7 +129,6 @@ body {
 #menu__toggle {
  opacity: 0;
 }
-}
 
 @media (max-width: 1406px) {
 .wrapper {margin: 0 218px 0 219px;}
@@ -164,10 +163,10 @@ body {
 }
 
 .main__button {font: 14px/16px Robotomedium, arial, helvetica, sans-serif;padding: 14px 26px 14px 16px;}
-}
 
 .points {
  margin: 88px 48.2%;
+}
 }
 
 @media (max-width: 1298px) {
@@ -209,10 +208,10 @@ font: 4.89vw/6.44vw pt_serifbold, arial, helvetica, sans-serif
 }
 
 .main__button {font: 14px/16px Robotomedium, arial, helvetica, sans-serif;padding: 14px 26px 14px 15px;}
-}
 
 .points {
  margin: 87px 48.3%;
+}
 }
 
 @media (max-width: 843px) {
