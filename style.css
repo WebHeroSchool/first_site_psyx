@@ -4,7 +4,8 @@ body {
 }
 
 .wrapper {
-  margin: 0 197px 0 196px;
+  margin: auto;
+  width: 80%;
 }
 
 .header__logo {
@@ -131,7 +132,7 @@ body {
 
 @media (max-width: 1406px) {
 .wrapper {
-  margin: 0 218px 0 219px;
+  width: 68%;
   }
 
 .menu {
@@ -175,7 +176,6 @@ body {
 
 @media (max-width: 1298px) {
 .wrapper {
-  margin: auto;
   width: 91%;
   }
 
