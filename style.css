@@ -71,18 +71,19 @@ body {
 }
 
 .main {
- padding: 76px 63% 269px 0;
+ padding: 76px 63% 9% 0;
  background: top right no-repeat url(img/mainimg.svg);
+ background-size: contain;
 }
 
 .main__title {
  margin: 0 0 40px 0;
- font: 66px/85px pt_serifbold, arial, helvetica, sans-serif;
+ font: 3.44vw/4.48vw pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
  margin: 0 140px 41px 0;
- font: 22px/26px Robotoregular, arial, helvetica, sans-serif;
+ font: 1.14vw/1.25vw Robotoregular, arial, helvetica, sans-serif;
 }
 
 .main__button {
@@ -90,7 +91,7 @@ body {
  font: 18px/21px Robotomedium, arial, helvetica, sans-serif;
  color: #fff;
  background: #0056EC;
- padding: 18px 34px 18px 22px;
+ padding: 19px 34px 18px 22px;
  text-decoration: none;
  border-radius: 4px;
  transition: opacity .5s;
@@ -105,7 +106,7 @@ body {
 }
 
 .points {
-  margin: auto;
+  margin: 133px 49%;
   width: 32px;
   height: 8px;
   background: no-repeat url('img/points.svg');
