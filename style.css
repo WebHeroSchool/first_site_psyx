@@ -106,7 +106,7 @@ body {
 }
 
 .points {
-  margin: 133px 49%;
+  margin: 132px 49%;
   width: 32px;
   height: 8px;
   background: no-repeat url('img/points.svg');
@@ -130,7 +130,7 @@ body {
  opacity: 0;
 }
 
-@media (max-width: 1367px) {
+@media (max-width: 1406px) {
 .wrapper {margin: 0 218px 0 219px;}
 
 .menu {
@@ -142,8 +142,9 @@ body {
 }
 
 .main {
- padding: 17px 55% 147px 0;
+ padding: 17px 55% 6.4% 0;
  background: top right no-repeat url(img/mainimg1366.svg);
+ background-size: contain;
 }
 
 .menu__item {
@@ -152,18 +153,23 @@ body {
 }
 
 .main__title {
-margin-bottom: 40px;
-font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+  margin-bottom: 40px;
+  font: 3.67vw/4.83vw pt_serifbold, arial, helvetica,sans-serif;
 }
 
 .main__subtitle {
-  margin: 0 60px 42px 0;font: 18px/21px Robotomedium, arial, helvetica, sans-serif;
+  margin: 0 60px 42px 0;
+  font: 1.31vw/1.6vw Robotomedium, arial, helvetica, sans-serif;
 }
 
-.main__button {font: 14px/16px Robotomedium, arial, helvetica, sans-serif;padding: 14px 21px;}
+.main__button {font: 14px/16px Robotomedium, arial, helvetica, sans-serif;padding: 14px 26px 14px 16px;}
 }
 
-@media (max-width: 1024px) {
+.points {
+ margin: 88px 48.2%;
+}
+
+@media (max-width: 1298px) {
 .wrapper {
  margin: auto;
  width: 91%;
@@ -181,8 +187,9 @@ font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main {
- padding: 17px 55% 147px 0;
+ padding: 17px 55% 6.4% 0;
  background: top right no-repeat url(img/mainimg1366.svg);
+ background-size: contain;
 }
 
 .menu__item {
@@ -192,23 +199,28 @@ font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 
 .main__title {
 margin-bottom: 40px;
-font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+font: 4.89vw/6.44vw pt_serifbold, arial, helvetica, sans-serif
 }
 
 .main__subtitle {
-  margin: 0 60px 42px 0;font: 18px/21px Robotomedium, arial, helvetica, sans-serif;
+  margin: 0 60px 42px 0;
+  font: 1.76vw/2.1vw Robotomedium, arial, helvetica, sans-serif
 }
 
-.main__button {font: 14px/16px Robotomedium, arial, helvetica, sans-serif;padding: 14px 20.5px;}
+.main__button {font: 14px/16px Robotomedium, arial, helvetica, sans-serif;padding: 14px 26px 14px 15px;}
 }
 
-@media (max-width: 768px) {
+.points {
+ margin: 87px 48.3%;
+}
+
+@media (max-width: 843px) {
  .menu {
  display: none;
  }
 
  .wrapper {
-   width: 87%;
+   width: 70%;
  }
 
  .header {margin-bottom: 4px;padding: 24px 0;}
@@ -219,9 +231,13 @@ font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
  background: url('img/logomobile.svg');
 }
 
-.main {text-align: center;padding: 80% 0 0;background-size: 74%;background: top center no-repeat url(img/mainimgmobile.svg);}
+.main {
+  text-align: center;
+  padding: 80% 0 0 0;
+  background-size: contain;
+}
 
-.main__title {margin-bottom: 32px;font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;}
+.main__title {margin-bottom: 32px;font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;padding: 50px 5px 0;}
 
 .main__subtitle {
   text-align: center;
@@ -230,7 +246,7 @@ font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
   padding: 0 11px 0 15px;
 }
 
-.main__button {font: 14px/16px Robotoregular, arial, helvetica, sans-serif;padding: 14.5px 21.5px;}
+.main__button {font: 14px/16px Robotoregular, arial, helvetica, sans-serif;padding: 15.5px 26px 14.5px 21px;}
 
  .points {
  display: none;
@@ -316,4 +332,14 @@ font: 50px/65px pt_serifbold, arial, helvetica, sans-serif;
     visibility: visible;
     left: 0;
   }
+}
+
+@media (max-width: 376px) {
+.main {
+  background: top center no-repeat url(img/mainimgmobile.svg);
+}
+
+.wrapper {
+  width: 87%;
+}
 }
