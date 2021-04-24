@@ -12,6 +12,7 @@ body {
   width: 190px;
   height: 35px;
   background: url('img/logo.svg');
+  margin-left: 4px;
 }
 
 .menu {
@@ -36,7 +37,7 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 11px;
 }
 
 .menu__item_active::after {
